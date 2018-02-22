@@ -7,10 +7,12 @@ import { StoreComponent } from './store/store.component';
 import { CheckoutComponent } from './store/checkout/checkout.component';
 import { CartDetailComponent } from './store/cart-detail/cart-detail.component';
 import { StoreFirstGuard } from './store-first.guard';
+import { AuthComponent } from './admin/auth/auth.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
