@@ -127,7 +127,7 @@
       true,
       "element",
       null,
-      null
+      ["camelCase", "kebab-case"]
     ],
     "no-output-on-prefix": true,
     "use-input-property-decorator": true,

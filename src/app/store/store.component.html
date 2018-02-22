@@ -1,6 +1,7 @@
 <div>
-  <div class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand text-light">SPORT STORE</a>
+  <div class="navbar sticky-top navbar-dark bg-dark text-light">
+    <a class="navbar-brand">SPORT STORE</a>
+    <cart-summary></cart-summary>
   </div>
   <div class="container-fluid">
     <div class="row">
@@ -22,7 +23,12 @@
             </span>
           </h4>
           <div class="card-body">
-            <div class="card-text text-secondary p-1">{{ product.description }}</div>
+            <div class="card-text text-secondary p-1">
+              {{ product.description }}
+              <button (click)="addProductToCart(product)" class="form-inline btn btn-success btn-sm float-right">
+                Add To Cart
+              </button>
+            </div>
           </div>
         </div>
         <div class="form-inline mr-1 float-left">
