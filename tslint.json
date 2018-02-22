@@ -85,7 +85,7 @@
     ],
     "prefer-const": true,
     "quotemark": [
-      true,
+      false,
       "single"
     ],
     "radix": true,
@@ -120,14 +120,14 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      null,
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
-      "kebab-case"
+      null,
+      null
     ],
     "no-output-on-prefix": true,
     "use-input-property-decorator": true,
